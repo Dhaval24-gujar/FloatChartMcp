@@ -368,9 +368,9 @@ async def cleanup():
 
 print("hello world")
 
-if __name__ == "__main__":
-    print("Running server with Streamable HTTP transport")
-    try:
-        mcp.run(transport="streamable-http")
-    finally:
-        asyncio.run(cleanup())
+# if __name__ == "__main__":
+#     print("Running server with Streamable HTTP transport")
+#     try:
+#         mcp.run(transport="streamable-http")
+#     finally:
+#         asyncio.run(cleanup())
