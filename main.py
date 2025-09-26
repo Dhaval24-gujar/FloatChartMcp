@@ -28,7 +28,7 @@ logger = logging.getLogger(__name__)
 
 # Create FastMCP instance
 mcp = FastMCP("FloatChat-Argo",
-              port=int(os.getenv('PORT',8050)),
+              port=8050,
     stateless_http=True)
 
 # Global database pool
